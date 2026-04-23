@@ -127,7 +127,9 @@ console.log("-------------------------------------------");
 
 // Write your code below:
 
+let myNumber = 5
 
+console.log(myNumber * myNumber)
 
 // Extension 2: Score Tracker
 // -------------------------------------------
@@ -141,7 +143,13 @@ console.log("-------------------------------------------");
 
 // Write your code below:
 
+let score = 0
+let userAnswer = 25
 
+if (userAnswer === 25) {
+     score += 1
+} 
+console.log(score)
 
 // Extension 3: The Length Checker
 // -------------------------------------------
@@ -155,7 +163,11 @@ console.log("-------------------------------------------");
 
 // Write your code below:
 
+let word = "chozen"
 
+if (word.length > 5) {
+     console.log("That's a long word!")
+}
 
 // -----------------------------------------------------------
 // SAVING YOUR WORK
