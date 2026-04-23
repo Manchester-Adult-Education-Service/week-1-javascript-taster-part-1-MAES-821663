@@ -36,8 +36,8 @@ console.log("-------------------------------------------");
 // console.log("I love " + food);
 
 // Write your code below:
-
-
+let user_name = "jack"
+console.log("Hello, " + user_name)
 
 // -----------------------------------------------------------
 // Task 2: Basic Arithmetic (The Calculator)
@@ -59,7 +59,11 @@ console.log("-------------------------------------------");
 
 // Write your code below:
 
+let num1 = 10
+let num2 = 5
 
+total = num1 + num2
+console.log(total)
 
 // -----------------------------------------------------------
 // Task 3: Variables and IF Statements
@@ -84,6 +88,13 @@ console.log("-------------------------------------------");
 
 // Write your code below:
 
+let password = "guest"
+
+if (password === "JS123") {
+     console.log("Access granted");
+} else {
+     console.log("Access denied")
+}
 
 
 // -----------------------------------------------------------
